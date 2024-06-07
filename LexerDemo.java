@@ -122,7 +122,7 @@ class Lexer {
 public class LexerDemo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Digite a expressão para tokenizar: ");
+        System.out.println("Digite a expressão para  tokenizar: ");
         String input = scanner.nextLine();
         
         Lexer lexer = new Lexer(input);
